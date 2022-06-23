@@ -1,0 +1,206 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #202020;
+  }
+  
+  ul{
+    list-style: none;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    
+  }
+  
+  section{
+    width: 100%;
+    height: 95vh;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(71,71,71,0.7);
+    padding: 0px 5%;
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  
+  nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .title{
+    font-family: times new roman;
+    color: #c2c2c2;
+    font-size: 22px;
+  }
+  
+  nav ul li a:hover{
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .texto_frente p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+
+  .texto_frente p:nth-child(2),
+  .texto_frente p:nth-child(3),
+  .texto_frente p:nth-child(4),
+  .texto_frente p:nth-child(5){
+    font-family: myriad pro regular;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+
+  .texto_frente{
+    line-height: 0px;
+    margin: 45px 50px 25px;
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+  }
+
+  .git_btn{
+    margin-top: 1rem;
+    display: flex;
+  }
+
+  .git_btn{
+    font-family: calibri;
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem 4rem;
+    border: 1px solid #000000;
+    min-width: 4rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    background-color: #273f30;
+  }
+
+  .git_btn:hover{
+    background-color: #129945;
+  }
+
+
+  /* texto sobre mim */
+  
+  .about_me{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .about_me h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .about_me p{
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+  .box_me{
+    margin-top: 7%;
+    justify-content: space-between;
+    flex-basis: 31%;
+    background: #273f30;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+
+  .projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .projects h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .projects p{
+    color: #A1A1A1;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+  .prj_box{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .prj_box img{
+    width: 100%;
+    display: block;
+  }
+
+  .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .layer:hover{
+    background: rgba(71,71,71,0.7);
+  }
+
+  .layer h2{
+    font-family: myriad pro regular;
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .layer:hover h2{
+    bottom: 49%;
+    opacity: 1;
+  }
